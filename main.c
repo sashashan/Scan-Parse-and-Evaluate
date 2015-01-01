@@ -21,9 +21,7 @@ int main (int argc, char *argv[]) {
   
     initialize_reader(fp);
     
-    // SASHA's error tasting
-    
-    // Do scan, parse, evaluate here 
+    //Parses and Evaluates
     parse();
     
     finalize_reader();
